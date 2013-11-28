@@ -1,4 +1,4 @@
-Maple's Vim config
+Dante's Vim config(fork from Maple)
 ==================
 
 I use `vundle` to manage my plugins, which makes my `.vim` directory clean and tidy. If you are new to vim, the following two posts
@@ -16,14 +16,14 @@ Such as completions for variable names and function names(neocomplcache), expand
 * [neocomplcache](http://github.com/Shougo/neocomplcache) - Ultimate auto completion system for Vim.
 * [snipMate](https://github.com/garbas/vim-snipmate) - Plugin for using TextMate-style snippets in Vim.
 * [supertab](http://github.com/ervandew/supertab) - Perform all your vim insert mode completions with Tab.
-* [ZenCoding](http://github.com/mattn/zencoding-vim) - High speed HTML and CSS coding.
+* [emmet](https://github.com/mattn/emmet-vim) - vim plug-in which provides support for expanding abbreviations similar to emmet.
 * [delimitMate](http://github.com/Raimondi/delimitMate) - Provides auto-balancing and some expansions for parens, quotes, etc.
 
 ### Shortcuts
 
 * `Tab` -> Rotate across the completion list
 * `Tab` -> Expand snippets or jump to the next placeholder of snippet
-* `Ctrl` + `j` -> Call zen-coding expansion on html tags
+* `Ctrl` + `y` + ',' -> Call emmet expansion on html tags ( `Ctrl` + `y` is the leader key)
 
 ### Dependencies
 
@@ -35,13 +35,6 @@ yaourt -S gvim                             # ArchLinux
 sudo apt-get install vim-gtk               # Ubuntu
 ```
 
-### Tutorial
-
-``` vim
-:help zencoding
-```
-
-[Movie teaching zencoding.vim](http://mattn.github.com/zencoding-vim/)
 
 ### Screenshots
 
