@@ -217,7 +217,7 @@ Clone in Mac
 
 2. Clone and install this repo:
 
-        git clone git://github.com/humiaozuzu/dot-vimrc.git ~/.vim
+        git clone https://github.com/jxWho/dot-vimrc ~/.vim
         ln -s ~/.vim/vimrc ~/.vimrc
 
 3. Setup `Vundle`:
