@@ -1,6 +1,6 @@
 Dante's Vim config
 ==================
-Edit base on
+Edit based on
 * [Maple](https://github.com/humiaozuzu/dot-vimrc)
 
 I use `vundle` to manage my plugins, which makes my `.vim` directory clean and tidy. If you are new to vim, the following two posts
