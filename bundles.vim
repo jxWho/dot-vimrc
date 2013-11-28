@@ -12,14 +12,16 @@ Bundle 'gmarik/vundle'
 " Code Completions
 "------------------
 Bundle 'Shougo/neocomplcache'
-Bundle 'honza/vim-snippets'
 Bundle 'ervandew/supertab'
-Bundle 'honza/snipmate-snippets'
-Bundle 'mattn/zencoding-vim'
+Bundle 'mattn/emmet-vim'
 Bundle 'Raimondi/delimitMate'
 "------ snipmate dependencies -------
 Bundle 'MarcWeber/vim-addon-mw-utils'
 Bundle 'tomtom/tlib_vim'
+Bundle "garbas/vim-snipmate"
+
+"optional
+"Bundle 'honza/vim-snippets'
 
 "-----------------
 " Fast navigation
@@ -102,3 +104,10 @@ Bundle 'chriskempson/vim-tomorrow-theme'
 Bundle 'fisadev/fisa-vim-colorscheme'
 
 filetype plugin indent on     " required!
+
+"------
+"External plugin
+"------
+Bundle 'rizzatti/funcoo.vim'
+Bundle 'rizzatti/dash.vim'
+
