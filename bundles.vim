@@ -15,6 +15,11 @@ Bundle 'Shougo/neocomplcache'
 Bundle 'ervandew/supertab'
 Bundle 'mattn/emmet-vim'
 Bundle 'Raimondi/delimitMate'
+" for python
+Bundle 'davidhalter/jedi-vim'
+"for C-family
+"There's conflict 
+"Bundle 'Valloric/YouCompleteMe'
 "------ snipmate dependencies -------
 Bundle 'MarcWeber/vim-addon-mw-utils'
 Bundle 'tomtom/tlib_vim'

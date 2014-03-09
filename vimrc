@@ -265,3 +265,6 @@ set clipboard+=unnamed
 
 "jQuery syntax
 "au BufRead,BufNewFile jquery.*.js set ft=javascript syntax=jquery
+"
+"jedi
+let g:jedi#use_splits_not_buffers = 'bottom'
