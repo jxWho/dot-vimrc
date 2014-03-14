@@ -14,7 +14,7 @@ syntax on
 "--------
 " color scheme
 set background=dark
-color Tomorrow-Night-Bright
+color slate
 
 " highlight current line
 au WinLeave * set nocursorline nocursorcolumn
@@ -267,4 +267,8 @@ set clipboard+=unnamed
 "au BufRead,BufNewFile jquery.*.js set ft=javascript syntax=jquery
 "
 "jedi
-let g:jedi#use_splits_not_buffers = 'bottom'
+let g:jedi#use_splits_not_buffers = 'right'
+
+" easier moving of code blocks
+vnoremap < <gv " better Indentation
+vnoremap > >gv " better Indentation

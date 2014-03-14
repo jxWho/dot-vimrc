@@ -16,10 +16,10 @@ Bundle 'ervandew/supertab'
 Bundle 'mattn/emmet-vim'
 Bundle 'Raimondi/delimitMate'
 " for python
-Bundle 'davidhalter/jedi-vim'
+"Bundle 'davidhalter/jedi-vim'
 "for C-family
 "There's conflict 
-"Bundle 'Valloric/YouCompleteMe'
+Bundle 'Valloric/YouCompleteMe'
 "------ snipmate dependencies -------
 Bundle 'MarcWeber/vim-addon-mw-utils'
 Bundle 'tomtom/tlib_vim'
@@ -31,7 +31,8 @@ Bundle "garbas/vim-snipmate"
 "-----------------
 " Fast navigation
 "-----------------
-Bundle 'tsaleh/vim-matchit'
+"Bundle 'tsaleh/vim-matchit'
+Bundle 'edsono/vim-matchit'
 Bundle 'Lokaltog/vim-easymotion'
 
 "--------------
@@ -115,4 +116,5 @@ filetype plugin indent on     " required!
 "------
 Bundle 'rizzatti/funcoo.vim'
 Bundle 'rizzatti/dash.vim'
+
 
