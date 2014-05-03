@@ -11,15 +11,15 @@ Plugin 'gmarik/vundle'
 "------------------
 " Code Completions
 "------------------
-Plugin 'Shougo/neocomplcache'
+Plugin 'Shougo/neocomplete.vim'
 Plugin 'ervandew/supertab'
 Plugin 'mattn/emmet-vim'
 Plugin 'Raimondi/delimitMate'
+"Plugin 'Valloric/YouCompleteMe'
 " for python
 "Plugin 'davidhalter/jedi-vim'
 "for C-family
 "There's conflict 
-Plugin 'Valloric/YouCompleteMe'
 "------ snipmate dependencies -------
 Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
@@ -57,6 +57,8 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'bling/vim-airline'
 Plugin 'scrooloose/syntastic'
 Plugin 'bronson/vim-trailing-whitespace'
+Plugin 'junegunn/goyo.vim'
+Plugin 'yonchu/accelerated-smooth-scroll'
 
 "-------------
 " Other Utils
@@ -110,6 +112,8 @@ Plugin 'tpope/vim-vividchalk'
 Plugin 'Lokaltog/vim-distinguished'
 Plugin 'chriskempson/vim-tomorrow-theme'
 Plugin 'fisadev/fisa-vim-colorscheme'
+Plugin 'flazz/vim-colorschemes'
+Plugin 'vim-scripts/ColorSchemePicker'
 
 filetype plugin indent on     " required!
 
