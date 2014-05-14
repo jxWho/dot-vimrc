@@ -11,11 +11,11 @@ Plugin 'gmarik/vundle'
 ""------------------
 "" Code Completions
 ""------------------
-Plugin 'Shougo/neocomplete.vim'
+""Plugin 'Shougo/neocomplete.vim'
 Plugin 'ervandew/supertab'
 Plugin 'mattn/emmet-vim'
 Plugin 'Raimondi/delimitMate'
-""Plugin 'Valloric/YouCompleteMe'
+Plugin 'Valloric/YouCompleteMe'
 "" for python
 ""Plugin 'davidhalter/jedi-vim'
 ""for C-family
