@@ -353,3 +353,11 @@ let g:neocomplete#sources#omni#input_patterns.ruby = '[^. *\t]\.\h\w*\|\h\w*::'
 " For perlomni.vim setting.
 " https://github.com/c9s/perlomni.vim
 let g:neocomplete#sources#omni#input_patterns.perl = '\h\w*->\h\w*\|\h\w*::'
+
+
+" For syntastic checking
+let g:syntastic_jshint_exec = '/usr/local/lib/node_modules/jshint/bin/jshint'
+
+
+"For Goyo
+nnoremap <C-g> :Goyo<CR>
