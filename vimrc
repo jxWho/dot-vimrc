@@ -265,4 +265,5 @@ endtry
 
 
 
-
+"YouCompleteMe
+let g:ycm_add_preview_to_completeopt = 1
