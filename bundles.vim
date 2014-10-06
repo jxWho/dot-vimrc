@@ -71,7 +71,7 @@ Plugin 'gcmt/wildfire.vim'
 "" Syntax/Indent for language enhancement
 ""----------------------------------------
 ""------- web backend ---------
-Plugin '2072/PHP-Indenting-for-VIm'
+"Plugin '2072/PHP-Indenting-for-VIm'
 "Plugin 'tpope/vim-rails'
 Plugin 'lepture/vim-jinja'
 ""Plugin 'digitaltoad/vim-jade'
@@ -94,7 +94,7 @@ Plugin 'tpope/vim-markdown'
 "" Plugin 'tpope/vim-endwise'
 "
 ""------- Go ----------
-Plugin 'jnwhiteh/vim-golang'
+"Plugin 'jnwhiteh/vim-golang'
 "
 ""------- FPs ------
 Plugin 'kien/rainbow_parentheses.vim'
